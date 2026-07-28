@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class m1{
+	public static void main (String[] args){
+
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("enter the length");
+			int Length = input.nextInt();
+		System.out.println("enter the width");
+			int Width = input.nextInt();
+			int Area = Length * Width;
+
+		System.out.printf("the Area is: %d",Area);
+	}
+}

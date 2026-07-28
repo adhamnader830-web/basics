@@ -6,11 +6,11 @@ public class m1{
 		Scanner input = new Scanner(System.in);
 
 		System.out.println("enter the length");
-			int L = input.nextInt();
+			int Length = input.nextInt();
 		System.out.println("enter the width");
-			int W = input.nextInt();
-			int A = L * W;
+			int Width = input.nextInt();
+			int Area = Length * Width;
 
-		System.out.println("the area is:" + " " + A);
+		System.out.println("the area is:" + " " + Area);
 	}
 }

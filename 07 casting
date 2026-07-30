@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class q1{
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("inter an integer");
+		int A = input.nextInt();
+
+		System.out.println("inter another integer");
+		int B = input.nextInt();
+
+		System.out.println((float) A + B);
+	}
+}
